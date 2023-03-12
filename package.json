@@ -1,5 +1,5 @@
 {
-  "name": "picocolors",
+  "name": "picocolors-browser",
   "version": "1.0.0",
   "main": "./picocolors.js",
   "types": "./picocolors.d.ts",
@@ -7,7 +7,7 @@
     "./picocolors.js": "./picocolors.browser.js"
   },
   "sideEffects": false,
-  "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+  "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors, with browser support",
   "scripts": {
     "test": "node tests/test.js"
   },
@@ -22,8 +22,7 @@
     "cli",
     "console"
   ],
-  "author": "Alexey Raspopov",
-  "repository": "alexeyraspopov/picocolors",
+  "repository": "nathanbabcock/picocolors-browser",
   "license": "ISC",
   "devDependencies": {
     "ansi-colors": "^4.1.1",

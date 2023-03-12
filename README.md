@@ -1,14 +1,21 @@
-# picocolors
+# picocolors-browser
+
+> 🍴 Minimal fork of
+> [`picocolors`](https://github.com/alexeyraspopov/picocolors>) to add browser support.
 
 The tiniest and the fastest library for terminal output formatting with ANSI colors.
 
 ```javascript
-import pc from "picocolors"
+import pc from "picocolors-browser"
 
 console.log(
   pc.green(`How are ${pc.italic(`you`)} doing?`)
 )
 ```
+
+_Upstream README appears below._
+
+---
 
 - **No dependencies.**
 - **14 times** smaller and **2 times** faster than chalk.
